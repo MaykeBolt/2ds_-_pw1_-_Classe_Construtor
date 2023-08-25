@@ -1,0 +1,10 @@
+{
+    "name": "admin/2ds24082023real",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {}
+}
