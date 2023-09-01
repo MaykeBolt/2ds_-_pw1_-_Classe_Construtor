@@ -4,10 +4,12 @@ namespace App\model;
 
 class Pessoa {
 
-    public $nome;
+    public $nome, $idade, $local;
 
-    function __construct($nome) {
+    function __construct($nome,$idade,$local) {
         $this->nome = $nome;
+        $this->idade = $idade;
+        $this->local = $local;
     }
 
 }
